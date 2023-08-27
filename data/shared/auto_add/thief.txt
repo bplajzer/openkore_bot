@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list dex 10, agi 10, str 10, dex 20 , agi 20, str 20, dex 30, agi 40, str 40, agi 60, str 60, agi 80, str 90
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Double Attack 10, Improve Dodge 10, Steal 5, Envenom 3, Detoxify 1, Hiding 10, Steal 10, Envenom 8

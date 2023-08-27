@@ -1,0 +1,123 @@
+automacro refresh {
+    console /^Could not find an NPC at location/
+    timeout 30
+    call {
+        log [Unstuck] Could not find an NPC at location
+        do c @refresh
+        call move
+    }
+}
+
+automacro stuck_meeting {
+    console /^Unable to calculate a meetingPosition to target, dropping target/
+    timeout 30
+    exclusive 1
+    call {
+        log [Unstuck] Unable to calculate a meetingPosition to target, dropping target
+        do c @refresh
+        call move
+    }
+}
+
+automacro stuck_meeting {
+    console /^Cannot calculate a route from/
+    timeout 30
+    exclusive 1
+    call {
+        log [Unstuck] Cannot calculate a route from
+        do c @refresh
+        do ai clear
+        # call move
+    }
+}
+
+automacro stuck {
+    console /^Stuck during route./
+    timeout 10
+    exclusive 1
+    call {
+        log [Unstuck] Stuck during route
+        do c @refresh
+        do ai clear
+    }
+}
+
+#automacro bug1 {
+#    console /^BUG: Actor::move(undef, undef) called!/
+#    timeout 30
+#    call {
+#        log [Unstuck] BUG: Actor::move(undef, undef) called
+#        do c @refresh
+#    }
+#}
+
+#automacro bug2 {
+#    console /^You tried too long to move/
+#    timeout 30
+#    call {
+#        log [Unstuck] You tried too long to move
+#        do c @refresh
+#    }
+#}
+
+#automacro bug3 {
+#    console /^Failed to teleport using NPC/
+#    timeout 30
+#    call {
+#        log [Unstuck] Failed to teleport using NPC
+#        do c @refresh
+#        call move
+#    }
+#}
+
+automacro bug4 {
+    console /^Error: The server still recognizes your last connection/
+    timeout 60
+    exclusive 1
+    call {
+        log [Unstuck] Error: The server still recognizes your last connection
+        do relog
+    }
+}
+
+macro move{
+    log [Unstuck] Move called
+    if (@config(follow) == "1") {
+        log [Unstuck] Move called detecting follow setting 1
+        $follow = 1
+    } else {
+        log [Unstuck] Move called detecting follow setting 0
+        $follow = 0
+    }
+    $num = @rand(1, 4)
+    if ($num == 1) {
+        do north 3
+        log [move] north 3
+    }
+    if ($num == 2) {
+        do south 3
+        log [move] south 3
+    }
+    if ($num == 3) {
+        do east 3
+        log [move] east 3
+    }
+    if ($num == 4) {
+        do west 3
+        log [move] west 3
+    }
+    if ($follow == "1") {
+        log [Unstuck] Reset follow setting to 1
+        do conf follow 1
+    }
+    do c @refresh
+}
+
+
+#automacro Route {
+#    console /Cannot calculate a route/
+#    call {
+#        do relog 10
+#        do reload portal
+#    }
+#}

@@ -1,0 +1,10 @@
+automacro globals {
+    run-once 1
+    priority 0
+    call {
+        pause 1
+        log Master macro done.
+        $startup = 1
+        $stuckInit = 1
+    }
+}

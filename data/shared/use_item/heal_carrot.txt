@@ -1,0 +1,10 @@
+useSelf_item Carrot {
+    inInventory Carrot
+    hp < 60%
+}
+
+getAuto Carrot {
+	minAmount 0
+	maxAmount 100
+	passive 1
+}

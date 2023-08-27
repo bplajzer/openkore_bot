@@ -1,0 +1,8 @@
+automacro waitForTeam {
+    console /Map Change: tha_t01/
+    call {
+        do ai manual
+        pause 30
+        do ai on
+    }
+}

@@ -1,0 +1,14 @@
+useSelf_item Berserk Potion {
+	whenStatusInactive EFST_ATTHASTE_POTION3
+	inLockOnly 0
+	notInTown 1
+	notWhileSitting 1
+	timeout 5
+}
+
+getAuto Berserk Potion {
+	minAmount 0
+	maxAmount 10
+	passive 0
+	disabled 0
+}

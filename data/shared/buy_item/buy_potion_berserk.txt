@@ -1,0 +1,8 @@
+buyAuto Berserk Potion{
+	label BuyBrkPotion
+	npc payon 183 102
+	minAmount 0
+	maxAmount 5
+	zeny > 20000
+	disabled 0
+}

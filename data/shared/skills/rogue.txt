@@ -1,0 +1,5 @@
+attackSkillSlot Steal Coin {
+    sp > 10%
+    maxAttempts 10
+    maxUses 1
+} 

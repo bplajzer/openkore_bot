@@ -1,0 +1,14 @@
+useSelf_item Concentration Potion {
+	whenStatusInactive EFST_ATTHASTE_POTION1
+	inLockOnly 1
+	notWhileSitting 1
+	notInTown 1
+	timeout 5
+}
+
+getAuto Concentration Potion {
+	minAmount 0
+	maxAmount 10
+	passive 0
+	disabled 0
+}

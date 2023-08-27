@@ -1,0 +1,6 @@
+#!include ./lock_map/moc_pryd05.txt
+#!include ./lock_map/gef_fild14.txt
+!include ./lock_map/iz_dun03.txt
+#!include ./lock_map/prt_fild07.txt
+#!include ./lock_map/alde_dun04.txt
+#!include ./lock_map/xmas_dun02.txt

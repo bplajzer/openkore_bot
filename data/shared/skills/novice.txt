@@ -1,0 +1,6 @@
+useSelf_skill First Aid {
+	sp > 3
+	hp < 50%
+    notOnAction attack
+	disabled 0
+}

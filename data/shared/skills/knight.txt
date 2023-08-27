@@ -1,0 +1,30 @@
+attackSkillSlot Bowling Bash {
+	timeout 2
+	sp > 40%
+	monstersCount > 4
+	inLockOnly 0
+	notInTown 1
+	maxAttempts 4
+	maxUses 2
+	disabled 0
+}
+
+useSelf_skill Two-Hand Quicken {
+	whenStatusInactive Two-Hand Quicken
+	notWhileSitting 1
+	inLockOnly 0
+	notInTown 1
+	timeout 5
+	disabled 0
+}
+
+attackSkillSlot Auto Counter {
+	label attackSkillSlotAutoCounter
+	whenStatusInactive Auto Counter
+	inLockOnly 0
+	isSelfSkill 1
+	notInTown 1
+	dist 1.5
+	target
+	disabled 1
+}

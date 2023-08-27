@@ -1,0 +1,11 @@
+useSelf_item Green Herb {
+    inInventory Green Herb
+    whenStatusActive Poisoned
+    timeout 1
+}
+
+getAuto Green Herb {
+	minAmount 0
+	maxAmount 5
+	passive 1
+}

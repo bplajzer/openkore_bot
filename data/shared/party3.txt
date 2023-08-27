@@ -1,0 +1,6 @@
+#!include ./lock_map/pay_fild09.txt
+#!include ./lock_map/moc_fild18.txt
+#!include ./lock_map/gef_fild08.txt
+#!include ./lock_map/prt_fild07.txt
+#!include ./lock_map/gef_fild08.txt
+!include ./lock_map/xmas_dun02.txt

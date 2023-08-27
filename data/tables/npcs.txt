@@ -1,0 +1,305 @@
+prontera 147 153 Bearded Man#bandit
+prontera 143 174 ???
+prontera 147 175 Special Dealer#prt1
+prontera 164 175 Kafra Employee
+prontera 141 181 Universal Rental NPC
+prontera 170 180 Stylist#custom_stylist
+prontera 147 196 WOE Information
+prontera 150 193 Reset Girl
+prontera 159 193 Healer#prt
+prontera 153 193 Job Master
+prontera 160 133 YuPi#pront
+prontera 147 125 Cool Event Staff#prt
+prontera 146 89 Kafra Employee
+prontera 165 60 Apprentice Craftsman
+prontera 163 53 Promotional Staff#prt
+prontera 148 49 Bulletin Board#09
+prontera 151 29 Kafra Employee
+prt_fild08 159 371 Poring War Recruiter#wo
+prontera 164 125 Kafra Voting Staff#prt
+prt_fild08 175 374 Bard#brising
+prontera 202 122 Kid#sch
+prontera 216 120 Information Post#prt
+prontera 223 99 Guard#2pront
+prontera 229 104 Guard#3pront
+prontera 163 204 Man from Morocc
+prontera 156 212 Chef Assistant#prt
+prontera 165 232 Nephia#1
+prontera 146 232 Hypnotist#2
+prontera 164 195 PVP Warper
+prontera 162 193 Platinum Skill NPC
+prontera 162 193 Platinum Skill NPC
+prontera 106 116 Merideth#pront
+prontera 106 116 Merideth#pront
+prontera 78 150 Dairenne#pront
+prontera 78 150 Dairenne#pront
+prontera 73 140 Milk Vendor
+prontera 58 182 Flower Girl#prt
+prontera 58 182 Flower Girl#prt
+prontera 29 207 Kafra Employee
+prontera 29 207 Kafra Employee
+prt_fild05 290 221 Tool Dealer#prt
+prt_fild05 290 221 Tool Dealer#prt
+prt_fild05 290 224 Kafra Employee
+prt_fild05 290 224 Kafra Employee
+prt_fild05 278 220 Bulletin Board#16
+prt_fild05 278 220 Bulletin Board#16
+prt_fild05 270 212 Culvert Guardian
+prt_fild05 270 212 Culvert Guardian
+prontera 73 140 Milk Vendor
+prontera 123 102 Merchant#pron
+prontera 123 102 Merchant#pron
+prontera 149 202 YuNa#pront
+morocc 165 82 Morocc Villager#rus25
+payon 175 226 Kafra Employee
+payon 173 238 Jade#pay
+payon 158 246 Guardsman#payon
+payon 173 238 Jade#pay
+payon 158 182 Kafra Voting Staff#pay
+payon 160 183 Sign#payon
+payon 160 183 Sign#payon
+payon 166 169 Holy Shadow#12
+payon 153 182 Cool Event Staff#pay
+payon 153 182 Cool Event Staff#pay
+payon 166 165 Sacred Altar#12
+payon 166 173 Scarlet Palace#12
+payon 166 161 Bamboo Grove Hill#12
+payon 166 165 Sacred Altar#12
+payon 173 141 Ripped Cabus#GymPass
+payon 177 131 Pet Groomer#pay
+payon 157 146 Suhnbi#cash
+payon 182 132 Grout'he Tuccok#hellion
+payon 157 141 Phoenix#TKJobChange
+payon 182 132 Grout'he Tuccok#hellion
+payon 181 104 Kafra Employee
+payon 178 108 Bulletin Board#06
+payon 179 106 Healer#pay
+payon 178 108 Bulletin Board#06
+payon 189 105 Maroll Battle Recruiter
+payon 179 106 Healer#pay
+payon 186 104 Smile Assistance#pay
+payon 189 105 Maroll Battle Recruiter
+payon 181 104 Kafra Employee
+payon 186 104 Smile Assistance#pay
+payon 200 113 Continental Messenger#0
+payon 200 113 Continental Messenger#0
+payon 200 134 Merchant#pay
+payon 200 134 Merchant#pay
+pay_arche 79 31 Bulletin Board#07
+pay_arche 85 30 Guide#2pay
+pay_arche 79 31 Bulletin Board#07
+pay_arche 85 30 Guide#2pay
+pay_arche 55 123 Kafra Employee
+pay_arche 55 123 Kafra Employee
+pay_arche 39 134 Bulletin Board#08
+pay_arche 39 134 Bulletin Board#08
+payon 160 67 Healer#pay2
+payon 162 67 Guide#pay
+payon 103 63 Jason
+payon 91 77 Bag Seller
+payon 82 109 Pile of Stone#paypuzz2
+payon 65 119 Broom Grandma#rus44
+payon 134 211 Young Man#payon
+payon 132 235 Monster Scholar#02
+payon 79 171 Friar#G5
+pay_gld 208 268 Bamboo Grove Hill#1-2
+pay_gld 199 268 Bamboo Grove Hill#2
+pay_gld 190 277 Bamboo Grove Hill#3
+pay_gld 187 294 Bamboo Grove Hill#4
+pay_gld 125 236 Bright Arbor#1-2
+pay_gld 116 233 Bright Arbor#3
+payon 158 246 Guardsman#payon
+payon 166 177 Bright Arbor#12
+payon 145 178 Begnahd
+payon 144 173 Antonio
+payon 166 173 Scarlet Palace#12
+payon 154 170 Hagin#sign
+payon 134 211 Young Man#payon
+payon 215 102 Moohyun#job_star
+payon 214 79 Talpiz#BLS
+payon 215 102 Moohyun#job_star
+payon 214 79 Talpiz#BLS
+payon 184 65 Wise Bull Horn
+payon 222 71 duch pogody
+morocc 149 102 Special Dealer#mor1
+morocc 153 97 Healer#mor
+morocc 156 97 Kafra Employee
+morocc 149 102 Special Dealer#mor1
+morocc 153 97 Healer#mor
+morocc 156 97 Kafra Employee
+morocc 176 103 Continental Official#mo
+morocc 176 103 Continental Official#mo
+morocc 223 102 Volunteer - Morocc#06
+morocc 223 102 Volunteer - Morocc#06
+morocc 226 102 Volunteer - Morocc#07
+morocc 226 102 Volunteer - Morocc#07
+morocc 248 159 Young Man#magum1
+morocc 248 159 Young Man#magum1
+morocc 281 178 Cetsu#magum
+morocc 281 178 Cetsu#magum
+moc_fild20 38 174 Continental Guard#03
+moc_fild20 38 174 Continental Guard#03
+moc_fild20 38 183 Continental Guard#04
+moc_fild20 38 183 Continental Guard#04
+morocc 163 48 Healer#mor2
+morocc 143 63 Ragged Man#nd
+prontera 158 171 duch pogody
+comodo 199 138 Special Dealer#einb12
+comodo 201 138 Healer#com2
+comodo 195 150 Kafra Employee
+comodo 204 148 Devellin
+comodo 210 148 Bulletin Board#12
+comodo 210 154 Suspicious Guy#cmd
+izlude 129 118 Smile Assistance#iz
+izlude 131 116 Bulletin Board#5
+izlude 119 121 Cuskoal#izlude
+izlude 105 92 Vendor from Milk Ranch#
+izlude 105 97 Healer#izl2
+izlude 105 99 Butcher#iz
+izlude 150 143 Kylick#izlude
+izlude 121 150 Healer#izl
+izlude 105 92 Vendor from Milk Ranch#
+izlude 94 98 Fruit Gardener#iz
+izlude 105 97 Healer#izl2
+izlude 105 99 Butcher#iz
+izlude 119 121 Cuskoal#izlude
+izlude 94 98 Fruit Gardener#iz
+izlude 129 118 Smile Assistance#iz
+izlude 131 116 Bulletin Board#5
+izlude 121 87 Guide#iz
+alberta 196 146 Crusader#megin2
+payon 206 119 Chef Assistant#pay
+payon 210 110 Drunkard#payon
+payon 209 127 Servant
+payon 173 82 Young Man#2payon
+payon 210 110 Drunkard#payon
+payon 206 119 Chef Assistant#pay
+payon 209 127 Servant
+payon 143 165 Repairman#pay
+payon 143 165 Repairman#pay
+payon 143 143 Young Man#pay
+payon 159 129 Wooden Floor#paypuzz5
+payon_in01 47 59 Archer Wolt#payon
+payon 159 96 Tool Dealer#pay3
+payon 159 96 Tool Dealer#pay3
+pay_fild01 330 286 duch topora
+pay_fild01 330 280 duch topora
+prontera 123 83 Maroll Battle Recruiter
+prontera 105 87 Gift Merchant#prt
+prontera 123 83 Maroll Battle Recruiter
+prontera 105 87 Gift Merchant#prt
+prontera 104 49 Fruit Gardener#prt
+prontera 113 42 Flower Lady#prt
+prontera 113 42 Flower Lady#prt
+prontera 104 49 Fruit Gardener#prt
+prt_in 63 69 Dietrich
+prt_in 63 60 Hollgrehenn
+prt_in 56 68 Vurewell
+prt_in 73 87 Chivalry Member
+prt_in 63 54 Repairman#prt
+prt_in 284 168 Ginedin Rephere#pront
+payon 137 178 Hakhim
+pay_fild08 223 271 Spore
+pay_fild08 218 283 Mysterious Man#magum
+pay_fild08 218 283 Mysterious Man#magum
+pay_fild08 188 227 Willow
+pay_fild08 62 100 Poring
+pay_fild08 136 160 Willow
+pay_fild08 161 154 Willow
+pay_fild08 77 233 duch topora
+pay_fild08 174 334 Poring
+pay_fild08 139 332 Creamy
+pay_fild08 78 222 Poring
+pay_fild08 69 90 Spore
+payon 236 199 Leablem#pay
+payon 236 199 Leablem#pay
+pay_dun00 128 134 Familiar
+pay_dun00 110 129 Zombie
+payon 192 176 Gooho Ahn
+payon 192 176 Gooho Ahn
+pay_fild08 154 125 Creamy
+payon 204 221 Bafhail#payon
+pay_dun00 32 96 MrGency
+pay_dun00 167 39 Skeleton
+pay_fild08 51 79 Spore
+pay_dun00 133 139 Poporing
+pay_dun00 86 132 Skeleton
+pay_dun00 87 131 Skeleton
+pay_dun00 31 35 Zombie
+pay_dun00 128 140 Skeleton
+pay_dun00 140 135 Zombie
+pay_fild08 196 235 Poring
+pay_dun00 117 141 Skeleton
+pay_dun00 18 67 Familiar
+pay_dun00 131 93 Skeleton
+pay_dun00 126 93 Skeleton
+pay_dun00 25 24 Poporing
+pay_dun00 169 31 Zombie
+pay_dun00 168 33 Familiar
+pay_dun00 166 32 Zombie
+pay_dun00 167 36 Familiar
+pay_dun00 170 34 Skeleton
+pay_dun00 170 33 Skeleton
+pay_dun00 168 39 Zombie
+pay_dun00 167 33 Skeleton
+pay_dun00 132 81 Skeleton
+pay_fild08 150 322 Spore
+pay_dun00 29 156 Skeleton
+pay_dun00 108 66 Skeleton
+pay_dun00 105 66 Skeleton
+pay_dun00 22 111 Skeleton
+pay_dun00 22 114 Poporing
+morocc 152 110 Bulletin Board#11
+moc_fild12 160 365 Ashe#4
+moc_fild12 160 365 Ashe#4
+moc_fild12 160 372 Hit
+moc_fild12 160 372 Hit
+moc_fild18 177 333 Trace of Battle#13
+moc_fild18 177 333 Trace of Battle#13
+moc_fild18 111 303 Trace of Battle#14
+moc_fild18 111 303 Trace of Battle#14
+moc_fild18 309 257 Trace of Battle#12
+moc_fild18 309 257 Trace of Battle#12
+moc_fild12 35 303 Serutero#cmd
+moc_fild12 35 303 Serutero#cmd
+moc_fild18 109 197 Trace of Battle#15
+moc_fild18 109 197 Trace of Battle#15
+moc_fild18 92 200 Muka
+pay_fild08 118 304 Poring
+moc_fild18 108 116 #treasure
+moc_fild18 108 116 #treasure
+moc_fild18 156 96 Trace of Battle#16
+moc_fild18 156 96 Trace of Battle#16
+moc_fild18 159 111 Steel Chonchon
+moc_fild18 308 247 Steel Chonchon
+moc_fild18 346 296 Trace of Battle#11
+moc_fild18 346 296 Trace of Battle#11
+moc_fild18 346 296 Trace of Battle#11
+moc_fild18 86 182 Muka
+moc_fild18 236 262 Muka
+moc_fild18 121 112 Steel Chonchon
+moc_fild12 166 369 Trace of Battle#1
+moc_fild18 275 222 Steel Chonchon
+moc_fild18 196 331 Muka
+moc_fild18 283 165 Steel Chonchon
+pay_fild09 249 226 Bigfoot
+pay_fild09 211 271 Poporing
+pay_fild09 273 242 Bigfoot
+pay_fild09 234 233 Poporing
+pay_fild09 298 129 Poporing
+morocc 134 111 Bard#3
+morocc 134 111 Bard#3
+morocc 132 111 Little Girl#Jorti
+moc_fild19 107 101 Bulletin Board#20
+moc_fild19 107 101 Bulletin Board#20
+moc_fild19 107 101 Bulletin Board#20
+moc_fild19 107 101 Bulletin Board#20
+payon 181 172 Bard#4
+payon 173 89 Dancing
+morocc 116 39 Rogue Guild Agent#nd4
+morocc 116 39 Rogue Guild Agent#nd4
+pay_dun02 155 52 Bongun
+pay_dun01 199 156 duch miecza
+pay_dun00 94 21 Zombie
+pay_dun01 262 96 Soldier Skeleton
+pay_dun02 77 142 Munak

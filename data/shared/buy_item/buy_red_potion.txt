@@ -1,0 +1,8 @@
+buyAuto Red Potion{
+	label BuyRedPotion
+	npc payon 183 102
+	minAmount 0
+	maxAmount 200
+	zeny > 10000
+	disabled 0
+}

@@ -1,0 +1,14 @@
+useSelf_skill Tornado Stance {
+	lvl 1
+	whenStatusInactive Tornado Stance
+}
+
+attackComboSlot Tornado Kick {
+	sp > 10%
+	dist 1.5
+	afterSkill Tornado Stance
+	isSelfSkill 0
+	waitBeforeUse 1
+	notWhileSitting 1
+	notInTown 1
+}

@@ -1,0 +1,17 @@
+useSelf_skill Crazy Uproar {
+	sp > 8
+	whenStatusInactive Crazy Uproar
+	notInTown 1
+	disabled 0
+}
+
+attackSkillSlot Cart Revolution {
+	dist 1
+	sp  > 20%
+	aggressives >= 3
+	notInTown 1
+	inLockOnly 0
+	maxUses 4
+	timeout 1
+	disabled 0
+}

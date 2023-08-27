@@ -1,0 +1,49 @@
+automacro go_to_master_prontera {
+    console /^Calculating route to find master: prontera/
+    timeout 60
+    exclusive 1
+    call {
+        log [Tele2master] prontera
+        do c @go prontera        
+    }
+}
+
+automacro go_to_master_izlude {
+    console /^Calculating route to find master: izlude/
+    timeout 60
+    exclusive 1
+    call {
+        log [Tele2master] izlude
+        do c @go izlude        
+    }
+}
+
+automacro go_to_master_payon {
+    console /^Calculating route to find master: payon/
+    timeout 60
+    exclusive 1
+    call {
+        log [Tele2master] payon
+        do c @go payon
+    }
+}
+
+automacro go_to_master_morocc {
+    console /^Calculating route to find master: morocc/
+    timeout 60
+    exclusive 1
+    call {
+        log [Tele2master] morroc
+        do c @go morocc
+    }
+}
+
+automacro go_to_master_geffen {
+    console /^Calculating route to find master: geffen/
+    timeout 60
+    exclusive 1
+    call {
+        log [Tele2master] geffen
+        do c @go geffen
+    }
+}

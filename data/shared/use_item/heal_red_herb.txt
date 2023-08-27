@@ -1,0 +1,10 @@
+useSelf_item Red Herb {
+    inInventory Red Herb
+    hp < 60%
+}
+
+getAuto Red Herb {
+	minAmount 0
+	maxAmount 100
+	passive 1
+}

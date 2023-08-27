@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list dex 10, agi 10, str 10, dex 20, agi 20, str 20, dex 30, agi 30, str 30, agi 40,str 40, agi 50, str 50, agi 70
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Flying Kick 7, Peaceful Break 5, Happy Break 5, Kihop 5, Mild Wind 7, Tumbling 1, Sprint 10, Leap 5, Tornado Kick 1, Tornado Stance 1, Tornado Kick 3

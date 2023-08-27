@@ -1,0 +1,51 @@
+attackSkillSlot Estun {
+	dist 5
+	sp > 30%
+	inLockOnly 0
+	notInTown 1
+}
+
+attackComboSlot Esma {
+	afterSkill Estun
+    sp > 30%
+	waitBeforeUse 3
+	dist 5
+}
+
+useSelf_skill Kaite {
+	sp > 10%
+	whenStatusInactive Kaite
+	notWhileSitting 1
+	notInTown 1
+}
+
+useSelf_skill Kaizel {
+	sp > 10%
+	whenStatusInactive Kaizel
+	notWhileSitting 1
+	notInTown 1
+}
+
+################################### party
+
+partySkill Sage Spirit {
+    target_isJob Sage
+    target_whenStatusInactive Spirit
+    sp > 50%
+	disabled 0
+}
+
+partySkill Wizard Spirit {
+    target_isJob Sage
+    target_whenStatusInactive Spirit
+    sp > 50%
+	disabled 0
+}
+
+
+partySkill Priest Spirit {
+    target_isJob Sage
+    target_whenStatusInactive Spirit
+    sp > 50%
+	disabled 0
+}

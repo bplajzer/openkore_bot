@@ -1,0 +1,10 @@
+useSelf_item Apple {
+    inInventory Apple
+    hp < 60%
+}
+
+getAuto Apple {
+	minAmount 0
+	maxAmount 100
+	passive 1
+}

@@ -1,0 +1,7 @@
+#attackSkillSlot Melody Strike {
+#	lvl 5
+#	dist 15
+#	sp >= 10%
+#    maxUses 4
+#	onAction attack
+#}

@@ -1,0 +1,49 @@
+attackSkillSlot Magnum Break {
+	dist 1.5
+	sp  > 20%
+	aggressives >= 3
+	notInTown 1
+	maxAttempts 4
+	maxUses 2
+	disabled 0
+}
+
+attackSkillSlot Bash {
+	dist 1
+	sp > 50%
+	whenStatusInactive EFST_POSTDELAY, EFST_SUB_WEAPONPROPERTY, HEALTHSTATE_SILENCE, Divest Weapon, Parry
+	stopWhenHit 0
+	inLockOnly 0
+	notInTown 1
+	maxAttempts 4
+	maxUses 1
+	disabled 0
+}
+
+attackSkillSlot Provoke {
+	sp > 70%
+	maxAttempts 4
+	maxUses 1
+	notInTown 1
+	inLockOnly 0
+	target_whenStatusInactive EFST_PROVOKE
+	whenStatusInactive EFST_POSTDELAY, EFST_SUB_WEAPONPROPERTY, HEALTHSTATE_SILENCE, Divest Weapon, Parry
+	disabled 0
+}
+
+useSelf_skill Auto Berserk {
+	sp > 70%
+	notInTown 1
+	whenStatusInactive Berserk
+	disabled 0
+}
+
+useSelf_skill Endure {
+	sp > 60%
+	whenStatusInactive Endure
+	onAction attack
+	inLockOnly 0
+	notInTown 1
+	notWhileSitting 1
+	disabled 0
+}

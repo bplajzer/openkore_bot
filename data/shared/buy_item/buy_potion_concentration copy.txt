@@ -1,0 +1,8 @@
+buyAuto Concentration Potion{
+	label BuyCntPotion
+	npc payon 183 102
+	minAmount 0
+	maxAmount 10
+	zeny > 10000
+	disabled 0
+}

@@ -1,0 +1,55 @@
+automacro char_startup {
+    var startup == 1
+    exclusive 1
+    timeout 10
+    call char_startup_macro
+}
+
+macro char_startup_macro {
+    $lockMap = gef_fild07
+    $city = geffen
+    $sell = 124 70
+    $kafra = 120 62
+
+    log [setup] Startup value: $startup
+    do ai manual
+    pause 2
+    log [setup] Setting up save map in $city.
+    log [setup] Configure map to $city
+    do c @go $city
+    pause 1
+    do conf sellAuto_npc $city $sell
+    do conf storageAuto_npc $city $kafra
+    do conf saveMap_warpChatCommand @go $city
+    pause 1
+    do move $city $kafra
+    pause 2
+    do talknpc $kafra r0
+    pause 1
+    if (@config(customSetMapLock) == "1") {
+        log [setup] Setting up lockMap in $lockMap
+        do conf lockMap $lockMap
+    }
+    if (@config(customSetMaxPotion) == "1") {
+        log [setup] Setting max potion to 200
+        do conf BuyRedPotion.maxAmount 200
+        do conf GetRedPotion.maxAmount 200
+    } else {
+        log [setup] Setting max potion to 20
+        do conf BuyRedPotion.maxAmount 20
+        do conf GetRedPotion.maxAmount 20
+    }
+    pause 1
+    log [setup] Setting up buy npc
+    do conf BuyArrows.npc $city $sell
+    do conf BuyAwkPotion.npc $city $sell
+    do conf BuyCntPotion.npc $city $sell
+    do conf BuyRedPotion.npc $city $sell
+    do c @autoloot
+    pause 1
+    do ai auto
+    do move $city $sell
+    do autosell
+    $startup = 0
+    log [setup] Startup value: $startup
+}

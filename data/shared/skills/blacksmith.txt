@@ -1,0 +1,51 @@
+useSelf_skill Adrenaline Rush {
+	lvl 5
+	sp >= 10%
+	whenStatusInactive Adrenaline Rush
+	inLockOnly 0
+	notWhileSitting 1
+	notInTown 1
+	disabled 0
+}
+
+useSelf_skill Power Thrust {
+	lvl 5
+	sp >= 10%
+	whenStatusInactive Power Thrust
+	inLockOnly 0
+	notWhileSitting 1
+	notInTown 1
+	disabled 0
+}
+
+useSelf_skill Weapon Perfection {
+	lvl 5
+	sp >= 10%
+	whenStatusInactive Weapon Perfection
+	inLockOnly 0
+	notWhileSitting 1
+	notInTown 1
+	disabled 0
+}
+
+# turn on
+useSelf_skill Maximize Power {
+	lvl 5
+	sp >= 90%
+	whenStatusInactive Maximize Power
+	inLockOnly 0
+	notWhileSitting 1
+	notInTown 1
+	disabled 0
+}
+
+# turn off
+useSelf_skill Maximize Power {
+	lvl 5
+	sp <= 50%
+	whenStatusActive Maximize Power
+	inLockOnly 0
+	notWhileSitting 1
+	notInTown 0
+	disabled 0
+}

@@ -1,0 +1,24 @@
+sellAuto_npc comodo 199 138
+storageAuto_npc comodo 195 150
+saveMap_warpChatCommand @go comodo
+followTarget 
+lockMap
+follow 0
+
+lockMap comodo
+lockMap_x 180
+lockMap_y 136
+lockMap_randX 2
+lockMap_randY 2
+dcOnStorageFull 0
+
+getAuto Empty Bottle {
+    minAmount 1
+    maxAmount 50
+}
+
+doCommand ss AL_HOLYWATER {
+    inInventory Empty Bottle > 1
+    whenIdle 1
+    inLockOnly 1
+}

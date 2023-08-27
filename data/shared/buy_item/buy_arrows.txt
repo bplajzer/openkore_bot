@@ -1,0 +1,20 @@
+buyAuto Arrow{
+	label BuyArrows
+	npc payon 183 102
+	minAmount 30
+	maxAmount 2500
+	zeny > 6000
+	disabled 0
+}
+
+getAuto Arrow {
+	minAmount 30
+	maxAmount 2500
+	passive 0
+	disabled 0
+}
+
+equipAuto {
+    arrow Arrow
+	inInventory Arrow > 1
+}

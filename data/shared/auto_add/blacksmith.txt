@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list str 10, agi 10, dex 10, agi 20, str 20, dex 20, agi 30, dex 30, vit 10, str 30, agi 40, str 40, agi 60, vit 20, str 50, agi 70, str 70, vit 30, agi 80, str 90
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Enlarge Weight Limit 5, Pushcart 10, Discount 3, Overcharge 10, Discount 10, Enlarge Weight Limit 10, Mammonite 8, Hilt Binding 1, Weaponry Research 2, Hammerfall 2, Steel Tempering 1, Ore Discovery 1, Adrenaline Rush 3, Weapon Perfection 3, Power Thrust 2, Maximize Power 1, Adrenaline Rush 5, Weapon Perfection 5, Power Thrust 5, Maximize Power 5, Weaponry Research 10, Skin Tempering 5, Hammerfall 5, Iron Tempering 5, Enchanted Stone Craft 1

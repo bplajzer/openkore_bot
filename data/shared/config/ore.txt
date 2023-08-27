@@ -1,0 +1,35 @@
+sellAuto_npc prontera 147 175
+storageAuto_npc prontera 164 175
+saveMap_warpChatCommand @go prontera
+followTarget 
+lockMap
+follow 0
+
+lockMap prt_in
+lockMap_x 61
+lockMap_y 66
+lockMap_randX 2
+lockMap_randY 2
+dcOnStorageFull 0
+
+getAuto Rough Elunium {
+    minAmount 5
+    maxAmount 50
+}
+
+doCommand talknpc 63 69 c r1 n {
+    inInventory Rough Elunium > 4
+    whenIdle 1
+    inLockOnly 1
+}
+
+getAuto Rough Oridecon {
+    minAmount 5
+    maxAmount 50
+}
+
+doCommand talknpc 63 69 c r0 n {
+    inInventory Rough Oridecon > 4
+    whenIdle 1
+    inLockOnly 1
+}

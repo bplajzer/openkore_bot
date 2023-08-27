@@ -1,0 +1,12 @@
+useSelf_item Red Potion {
+    inInventory Red Potion
+    hp < 60%
+    notWhileSitting 1
+}
+
+getAuto Red Potion {
+    label GetRedPotion
+	minAmount 0
+	maxAmount 200
+	passive 0
+}

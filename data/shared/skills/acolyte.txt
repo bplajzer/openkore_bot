@@ -1,0 +1,100 @@
+useSelf_skill Heal {
+	hp < 70%
+	sp > 50
+	disabled 0
+}
+
+useSelf_skill AL_BLESSING {
+	whenStatusInactive EFST_BLESSING
+	timeout 5
+	sp > 100
+	inLockOnly 0
+	notInTown 1
+	hp > 40%
+	disabled 0
+}
+
+useSelf_skill AL_INCAGI {
+	whenStatusInactive EFST_INC_AGI
+	timeout 5
+	sp > 100
+	inLockOnly 0
+	notInTown 1
+	stopWhenHit 1
+	hp > 40%
+	disabled 0
+}
+
+useSelf_skill Cure {
+	lvl 1
+	whenStatusActive Cursed, Blinded, Chaos, Silenced
+	sp > 10%
+	timeout 5
+	notInTown 1
+	disabled 0
+}
+
+useSelf_skill Ruwach {
+	whenStatusInactive Ruwach
+	sp > 10%
+	notInTown 1
+	timeout 10
+	disabled 1
+}
+
+############################### party
+
+partySkill Heal {
+	target_hp < 70%
+	sp > 10%
+	disabled 0
+}
+
+partySkill AL_BLESSING {
+	target_whenStatusInactive EFST_BLESSING
+	timeout 100
+	sp > 100
+	inLockOnly 0
+	notPartyOnly 0
+	notInTown 1
+	hp > 40%
+	target_hp > 40%
+	disabled 0
+}
+
+partySkill AL_BLESSING {
+	level 1
+	target_whenStatusActive Cursed
+	sp > 30%
+	timeout 10
+	target_timeout 40
+	inLockOnly 0
+	notPartyOnly 0
+	notInTown 1
+	hp > 90%
+	target_hp > 90%
+	disabled 0
+}
+
+partySkill AL_INCAGI {
+	target_whenStatusInactive EFST_INC_AGI
+	timeout 100
+	sp > 30%
+	inLockOnly 0
+	notPartyOnly 0
+	notInTown 1
+	stopWhenHit 1
+	hp > 40%
+	target_hp > 40%
+	disabled 0
+}
+
+partySkill Angelus {
+	sp > 90%
+	notInTown 1
+	inLockOnly 0
+	timeout 10
+	target_whenStatusInactive Angelus
+	target_timeout 120
+	isSelfSkill 1
+}

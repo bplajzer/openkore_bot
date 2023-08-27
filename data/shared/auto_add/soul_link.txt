@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list dex 10, int 10, dex 20, int 20, dex 30, int 30, dex 40, int 40, dex 60, int 80, dex 90
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Flying Kick 7, Peaceful Break 5, Happy Break 5, Kihop 5, Mild Wind 7, Tumbling 1, Sprint 10, Leap 5, Tornado Kick 1, Tornado Stance 1, Tornado Kick 3, Sage Spirit 1, Wizard Spirit 1, Estun 7, Estin 7,  Esma 10, Kaite 7, Kaina 7, Priest Spirit 1, Kaizel 7

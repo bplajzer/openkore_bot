@@ -1,0 +1,8 @@
+buyAuto Awakening Potion{
+	label BuyAwkPotion
+	npc payon 183 102
+	minAmount 0
+	maxAmount 10
+	zeny > 20000
+	disabled 0
+}

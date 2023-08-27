@@ -1,0 +1,14 @@
+useSelf_item Awakening Potion {
+	whenStatusInactive EFST_ATTHASTE_POTION2
+	inLockOnly 0
+	notInTown 1
+	notWhileSitting 1
+	timeout 5
+}
+
+getAuto Awakening Potion {
+	minAmount 0
+	maxAmount 10
+	passive 0
+	disabled 0
+}

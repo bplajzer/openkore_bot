@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list str 10, agi 10, dex 10, agi 20, str 20, dex 20, agi 30, dex 30, vit 10, str 30, agi 40, str 40, agi 60, vit 20, str 50, agi 70, str 70, vit 30, agi 90
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Enlarge Weight Limit 5, Pushcart 10, Discount 3, Overcharge 10, Discount 10, Enlarge Weight Limit 10, Mammonite 9, Axe Mastery 10, Learning Potion 10, Pharmacy 10, Potion Pitcher 4, Rest 1, Call Homunculus 1, Ressurect Homunculus 4, Acid Terror 5, Demonstration 3

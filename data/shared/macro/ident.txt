@@ -1,0 +1,9 @@
+macro id {
+   $id = @inventory(Magnifier)
+   $i = 0
+   while ($i < 10) as loop
+   do is $id
+   do identify 0
+   $i++
+   end loop
+}

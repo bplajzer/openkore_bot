@@ -1,0 +1,22 @@
+useSelf_skill Detoxify {
+    lvl 1
+    whenStatusActive Poisoned
+    disabled 0
+}
+
+attackSkillSlot Envenom {
+    dist 1.5
+    sp > 70%
+    aggressives 5
+    inLockOnly 0
+    monsters
+    maxUses
+    target_whenStatusInactive Poisoned
+}
+
+attackSkillSlot Steal {
+    dist 1.5
+    sp > 20%
+    maxUses 1
+    maxAttempts 10
+}

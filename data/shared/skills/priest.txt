@@ -1,0 +1,101 @@
+useSelf_skill PR_GLORIA {
+	whenStatusInactive EFST_GLORIA
+	sp > 50%
+	timeout 5
+	inLockOnly 0
+	notInTown 1
+	stopWhenHit 1
+	hp > 40%
+	disabled 0
+}
+
+useSelf_skill PR_MAGNIFICAT {
+	whenStatusInactive EFST_MAGNIFICAT
+	timeout 10
+	inLockOnly 0
+	stopWhenHit 1
+	onAction follow
+	notInTown 1
+	hp > 20%
+	disabled 0
+}
+
+useSelf_skill PR_KYRIE {
+	whenStatusInactive EFST_KYRIE
+	sp > 50%
+	sp > 40
+	inLockOnly 0
+	notPartyOnly 0
+	notInTown 1
+	stopWhenHit 1
+	hp > 90%
+	target_timeout 20
+	disabled 0
+}
+
+################################### party
+
+partySkill PR_KYRIE {
+	target_whenStatusInactive EFST_KYRIE
+	sp > 50%
+	timeout 10
+	target_timeout 40
+	inLockOnly 0
+	notPartyOnly 0
+	notInTown 1
+	stopWhenHit 1
+	hp > 90%
+	target_hp > 90%
+	disabled 0
+}
+
+partySkill PR_ASPERSIO {
+	label partySkillAspersio
+	target_whenStatusInactive EFST_ASPERSIO
+	inMap gl_knt01, gl_knt02, gef_dun01, gef_dun02, gl_in01, gl_cas01, gl_cas02, nif_fild02
+	target_timeout 180
+	inInventory Holy Water
+	disabled 0
+}
+
+attackSkillSlot AL_DECAGI {
+	maxUses 1
+	stopWhenHit 1
+	monsters Abysmal Knight, Rideword
+	hp > 99%
+	disabled 1
+}
+
+partySkill PR_STRECOVERY {
+	target_whenStatusActive Frozen, Stunned, Stonecursed, Stone Curse, Stun
+	timeout 0.5
+	disabled 0
+}
+
+partySkill Magnificat {
+	sp > 20%
+	stopWhenHit 1
+	timeout 10
+	notInTown 1
+	target_whenStatusInactive Magnificat
+	isSelfSkill 1
+	disabled 0
+}
+
+partySkill Resurrection {
+	lvl 4
+	target_dead 1
+	notInTown 1
+	inLockOnly 0
+	disabled 0
+}
+
+partySkill Impositio Manus {
+	sp > 40%
+	notInTown 1
+	inLockOnly 0
+	timeout 3
+	target_whenStatusInactive Impositio Manus
+	target_timeout 60
+	disabled 0	
+}

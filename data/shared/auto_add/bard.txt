@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list dex 10, agi 10, dex 30, agi 30, dex 50, agi 50, dex 70, agi 70, vit 30, dex 90, agi 90
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Owl's Eye 10, Vulture's Eye 10, Improve Concentration 10, Double Strafe 5, Arrow Shower 1, Double Strafe 10, Arrow Shower 9, Adaptation to Circumstances 1, Encore 1, Musical Lesson 10, Musical Strike 5, Dissonance 3, Poem of Bragi 10, Apple of Idun 10, Assassin Cross of Sunset 9

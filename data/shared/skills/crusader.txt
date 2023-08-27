@@ -1,0 +1,43 @@
+useSelf_skill Heal {
+	hp < 70%
+	sp > 50
+	disabled 0
+}
+
+useSelf_skill Cure {
+	lvl 1
+	whenStatusActive Cursed, Blinded, Chaos, Silenced
+	sp > 10%
+	timeout 5
+	notInTown 1
+	disabled 0
+}
+
+useSelf_skill Auto Guard {
+	whenStatusInactive Auto Guard
+	sp > 80%
+	notInTown 1
+	disabled 0
+}
+
+useSelf_skill Reflect Shield {
+	whenStatusInactive Reflect Shield
+	sp > 80%
+	notInTown 1
+	disabled 0
+}
+
+################################### party
+
+partySkill Heal {
+	target_hp < 70%
+	sp > 10%
+	disabled 0
+}
+
+partySkill Cure {
+	lvl 1
+    target_whenStatusActive Cursed, Blinded, Chaos, Silenced
+	sp > 80%
+	disabled 0
+}

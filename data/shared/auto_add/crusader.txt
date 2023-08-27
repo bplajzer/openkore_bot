@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list dex 30, vit 30, int 20, vit 50, int 50, vit 70, int 70, vit 99
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Sword Mastery 10, Increase HP Recovery 10, Bash 5, Magnum Break 1, Provoke 5, Endure 5, Bash 10, Magnum Break 3, Endure 8, Provoke 8, Faith 10, Cure 1, Divine Protection 3, Demon Bane 5, Heal 10, Auto Guard 10, Shield Charge 5, Shield Boomerang 3, Reflect Shield 2

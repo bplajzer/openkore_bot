@@ -1,0 +1,54 @@
+version: "3.7"
+
+services:
+  ws:
+    image: bot:latest
+    command: duch_1 20
+    container_name: ws
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./data/profiles:/app/eng/profiles
+    - ./data/shared:/app/eng/shared
+    - ./data/plugins:/app/eng/plugins
+    - ./data/logs:/app/eng/logs
+    - ./data/logs/duch_1/:/app/eng/errors.txt
+
+  hp1:
+    image: bot:latest
+    command: duch_2 1
+    container_name: hp1
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./data/profiles:/app/eng/profiles
+    - ./data/shared:/app/eng/shared
+    - ./data/plugins:/app/eng/plugins
+    - ./data/logs:/app/eng/logs
+    - ./data/logs/duch_2/:/app/eng/errors.txt
+
+  lk:
+    image: bot:latest
+    command: duch_3 20
+    container_name: lk
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./data/profiles:/app/eng/profiles
+    - ./data/shared:/app/eng/shared
+    - ./data/plugins:/app/eng/plugins
+    - ./data/logs:/app/eng/logs
+    - ./data/logs/duch_3/:/app/eng/errors.txt
+
+  hp2:
+    image: bot:latest
+    command: duch_4 1
+    container_name: hp2
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./data/profiles:/app/eng/profiles
+    - ./data/shared:/app/eng/shared
+    - ./data/plugins:/app/eng/plugins
+    - ./data/logs:/app/eng/logs
+    - ./data/logs/duch_4/:/app/eng/errors.txt

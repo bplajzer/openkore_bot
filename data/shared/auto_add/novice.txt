@@ -1,0 +1,7 @@
+statsAddAuto 0
+statsAddAuto_list 
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Basic Skill 9

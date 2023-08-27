@@ -1,0 +1,5 @@
+###################################################### Common macro
+!include ../../shared/macros.txt
+
+###################################################### Config macro
+!include ../../shared/party3.txt

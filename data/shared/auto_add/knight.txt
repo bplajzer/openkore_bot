@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list str 10, agi 10, dex 10, agi 20, str 20, dex 20, agi 30, dex 30, vit 10, str 30, agi 40, str 40, vit 20, agi 60, vit 30, str 60, agi 70, str 80, agi 80, str 99
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Sword Mastery 1, Two-Handed Sword Mastery 10, Increase HP Recovery 10, Bash 5, Magnum Break 1,Provoke 5, Endure 5, Bash 10, Magnum Break 3, Endure 8, Provoke 7, Sword Mastery 1, Two-Handed Sword Mastery 10, Increase HP Recovery 10, Bash 5, Magnum Break 1,Provoke 5, Endure 5, Bash 10, Magnum Break 3, Endure 8, Provoke 7, Riding 1, Cavalry Mastery 5, Two-Hand Quicken 10, Auto Counter 5, Bowling Bash 10, Provoke 10, Endure 10, Magnum Break 10

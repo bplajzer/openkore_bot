@@ -1,0 +1,62 @@
+useSelf_item Apple {
+    hp < 95%
+}
+getAuto Apple {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Banana {
+    hp < 95%
+}
+getAuto Banana {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Carrot {
+    hp < 95%
+}
+getAuto Carrot {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Meat {
+    hp < 95%
+}
+getAuto Meat {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Red Herb {
+    hp < 95%
+}
+getAuto Red Herb {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Potato {
+    hp < 95%
+}
+getAuto Potato {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}
+
+useSelf_item Monster's Feed {
+    hp < 95%
+}
+getAuto Monster's Feed {
+	minAmount 0
+	maxAmount 30
+	passive 1
+}

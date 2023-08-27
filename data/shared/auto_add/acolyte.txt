@@ -1,0 +1,7 @@
+statsAddAuto 1
+statsAddAuto_list int 10, dex 10, vit 10, int 30, dex 30, vit 20, int 40, dex 40, int 50, dex 50, dex 70, int 70
+statsAddAuto_dontUseBonus 1
+statsAdd_over_99 1
+
+skillsAddAuto 1
+skillsAddAuto_list Heal 3, Divine Protection 5, Blessing 10, Increase Agility 3, Heal 10, Increase Agility 10, Cure 1, Aqua Benedicta 1, Ruwach 1, Teleport 2, Warp Portal 4, Pneuma 1, Angelus 4

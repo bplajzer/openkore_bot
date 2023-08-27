@@ -1,0 +1,5 @@
+# Common macros for all
+!include ./macro/auto_refresh.txt
+!include ./macro/global_vars.txt
+#!include ./macro/return_to_master_by_command.txt
+!include ./macro/ident.txt

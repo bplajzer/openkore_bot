@@ -1,0 +1,65 @@
+useSelf_skill Potion Pitcher{
+    lvl 1
+    hp < 60%
+    sp > 10%
+    inInventory Red Potion
+}
+
+useSelf_skill Potion Pitcher{
+    lvl 2
+    hp < 60%
+    sp > 10%
+    inInventory Orange Potion
+}
+
+useSelf_skill Potion Pitcher{
+    lvl 3
+    hp < 60%
+    sp > 10%
+    inInventory Yellow Potion 
+}
+
+useSelf_skill Potion Pitcher{
+    lvl 4
+    hp < 60%
+    sp > 10%
+    inInventory White Potion
+}
+
+################################### party
+
+partySkill Potion Pitcher {
+    lvl 1
+    target_hp <= 50%
+    sp > 10%
+    inInventory Red Potion
+    notInTown 1
+	disabled 0
+}
+
+partySkill Potion Pitcher {
+    lvl 2
+    target_hp <= 50%
+    sp > 10%
+    inInventory Orange Potion
+    notInTown 1
+	disabled 0
+}
+
+partySkill Potion Pitcher {
+    lvl 3
+    target_hp <= 50%
+    sp > 10%
+    inInventory Yellow Potion
+    notInTown 1
+	disabled 0
+}
+
+partySkill Potion Pitcher {
+    lvl 4
+    target_hp <= 50%
+    sp > 10%
+    inInventory White Potion
+    notInTown 1
+	disabled 0
+}
